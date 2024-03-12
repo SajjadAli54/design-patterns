@@ -9,6 +9,14 @@ public class EditorState {
         return content;
     }
 
+    public String getFontName() {
+        return fontName;
+    }
+
+    public int getFontSize() {
+        return fontSize;
+    }
+
     public EditorState(String content, String fontName, int fontSize) {
         this.content = content;
         this.fontName = fontName;
