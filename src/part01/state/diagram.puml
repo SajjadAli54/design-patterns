@@ -1,0 +1,33 @@
+@startuml
+
+@startuml
+
+class Canvas {
+    currentTool: Tool
+
+    +mouseDown(): void
+    +mouseUp(): void
+}
+
+interface Tool {
+    mouseDown(): void
+    mouseUp(): void
+}
+
+class Selection implements Tool {
+    +mouseDown(): void
+    +mouseUp(): void
+}
+
+class Brush implements Tool {
+    +mouseDown(): void
+    +mouseUp(): void
+}
+
+class Eraser implements Tool {
+    +mouseDown(): void
+    +mouseUp(): void
+}
+
+Canvas *--> Tool
+@enduml
