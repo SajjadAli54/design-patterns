@@ -1,0 +1,17 @@
+@startuml
+
+interface IDataReader{
+    +ReadData():string
+    +ReadData(string):string
+}
+
+class SQLDataReader implements IDataReader{
+    +ReadData():string
+    +ReadData(string):string
+}
+
+class OracleDataReader implements IDataReader{
+    +ReadData():string
+    +ReadData(string):string
+}
+@enduml

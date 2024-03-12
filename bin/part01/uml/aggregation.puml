@@ -1,0 +1,13 @@
+@startuml
+'Aggregation Example
+
+class Duck {
+}
+
+class Pond {
+
+}
+
+Duck --o Pond
+
+@enduml

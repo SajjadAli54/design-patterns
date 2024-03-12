@@ -1,0 +1,14 @@
+@startuml
+
+'Composition Example
+
+class Engine {
+}
+
+class Car {
+    -engine: Engine
+}
+
+Engine --* Car
+
+@enduml
