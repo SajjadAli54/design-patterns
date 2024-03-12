@@ -1,5 +1,7 @@
+import part01.memento.Main;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Main.main();
     }
 }
