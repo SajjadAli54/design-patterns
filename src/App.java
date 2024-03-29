@@ -1,4 +1,4 @@
-import part01.template.Main;
+import part01.command.editor.Main;
 
 public class App {
     public static void main(String[] args) throws Exception {
